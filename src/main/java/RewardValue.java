@@ -22,7 +22,7 @@ public class RewardValue {
 
 //    Return miles value of RewardValue using getMilesValue()
     public double getMilesValue() {
-        return milesValue;
+        return (int) milesValue;
     }
 }
 
